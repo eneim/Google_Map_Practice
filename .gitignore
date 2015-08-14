@@ -14,3 +14,6 @@
 /build
 /.gradle
 /captures
+/app/src/androidTest
+/app/src/debug
+/app/src/release
