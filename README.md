@@ -4,4 +4,4 @@ A simple repo for Google Map Practice
 
 # License
 
-APACHE 2.0
+See [LICENSE](https://github.com/eneim/Google_Map_Practice/blob/master/LICENSE.md)
