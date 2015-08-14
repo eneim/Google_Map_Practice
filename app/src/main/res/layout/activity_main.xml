@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="8dp"
+              android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="Default Map Activity"
+        android:onClick="openDefaultMapActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="Custom Map Activity"
+        android:onClick="openCustomMapActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="MapView Activity"
+        android:onClick="openMapViewActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="MapView in Fragment Activity"
+        android:onClick="openMapViewInFragmentActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="MapFragment in Fragment Activity"
+        android:onClick="openMapFragmentInFragmentActivity"/>
+</LinearLayout>
